@@ -1,0 +1,68 @@
+#footer
+	background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(../img/footer-bg.jpg)  center no-repeat
+	background-size: cover
+	text-align: center
+	height: 40vh
+	color: white
+	margin: 20px 0
+	padding-bottom: 30px
+
+	a 
+		color: white 
+		text-decoration: none
+
+		span
+			padding: 10px 20px 
+			border: 2px solid white
+			box-shadow: 2px 2px 3px rgba(0,0,0,0.3)
+			font-weight: 500
+			margin: 20px 0
+			display: inline-block 
+
+			&:hover 
+				background-color: #FFF
+				color: #111
+
+	h1
+		margin: 20px 0
+
+		&:first-child
+			padding-top: 40px
+			text-transform: uppercase
+
+	.footer-nav
+		display: flex
+		align-items: center 
+		justify-content: space-around
+		margin: 0 auto 40px
+		width: 650px
+		text-align: center
+
+
+		ul:nth-child(3)
+			padding-left: 10px
+			
+		a 
+			color: white 
+			text-decoration: none
+
+			&:hover
+				color: #488455
+
+			li 
+				display: inline
+				margin: 0 10px
+
+			.footer-logo
+				background: url(../img/logo.png) center center no-repeat
+				background-size: contain
+				width: 150px
+				height: 45px
+				opacity: .87
+				+transition()
+				
+				&:hover
+					opacity: 1
+					transform: scale(1.04)		
+
+				
