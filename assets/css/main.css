@@ -468,8 +468,8 @@ body {
           color: #111; }
 
 #about {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/bg2.jpg) 10px no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/bg2.jpg) 10px no-repeat;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/bg2.jpg) repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/bg2.jpg) repeat;
   background-size: cover;
   height: 100vh;
   color: white;
